@@ -1,0 +1,94 @@
+/* Custom properties: Makes it easier to select colours and make changes later on. */
+:root {
+    --colour-green-dark: #232F2B;
+    --colour-green-medium: #3F6357;
+    --colour-green-light: #7FA493;
+    --colour-green-pale: #CCDBD4;
+    --colour-brown-medium: #AC7C78;
+    --colour-brown-light: #EBD2CD;
+}
+
+
+body {
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    color: var(--colour-green-dark);
+    font-size: 4rem;
+    line-height: 1;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    color: var(--colour-green-dark);
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+h4 {
+    font-family: Helvetica, sans-serif;
+    color: var(--colour-green-dark);
+    font-size: 1.3rem;
+    line-height: 1;
+    font-weight: 600;
+    margin-top: 4rem;;
+}
+
+p {
+    font-family: Trebuchet, sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 4rem;
+}
+
+section {
+    padding: 4rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 1rem;
+}
+
+/* Class selectors */
+
+.text-center {
+    text-align: center;
+}
+
+.subtext {
+    max-width: 25rem;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem)
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.two-column {
+    display: flex;
+}
+
+.two-column > * {
+    flex-basis: 100%;
+}
+
+.light-bg {
+    background-color: var(--colour-green-pale);
+}
+
+.dark-bg {
+    background-color: var(--colour-brown-light);
+}
